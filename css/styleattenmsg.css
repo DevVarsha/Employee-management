@@ -1,0 +1,134 @@
+/*header*/
+
+a.app-header__logo {
+    background-color: #ff9900 ;
+}header.app-header {
+    background-color: #ff9900;
+}img.user-img {
+    width: 20px;
+    height: 20px;
+}img.notifications {
+    height: 20px;
+    width: 20px;
+
+}
+
+img.webkodz-logo {
+    width: 140px;
+    position: relative;
+    top: -5px;
+}
+
+
+
+
+b.employee {
+    color: blue;
+    font-size: 15px;
+    
+    position: relative;
+    top: -14px;
+}
+b.add-employee {
+    position: relative;
+    top: -14px;
+    font-size: 15px;
+    color: #8e8e9a;;
+    
+}    span.comming-employee {
+    position: relative;
+    top: -14px;
+    font-size: 15px;
+    color: #928b8b;
+}   
+i.fa.fa-chevron-right.add {
+    color: black;
+}
+b.emp-come {
+    font-size: 24px;
+}
+p.come-today {
+    color: #928b8b;
+    position: relative;
+    top: 15px;
+}
+textarea#validationCustom01 {
+    position: relative;
+    top: 20px;
+    width: 550px;
+    height: 280px;
+}
+.tile {
+    height: 764px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+textarea#w3review {
+    height: 269px;
+    position: relative;
+    top: 31px;
+    border-color: #c3c3ce;
+}
+button.btn.btn-warning2 {
+    width: 111px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #2ce2f3 ;
+    
+    position: relative;
+    top:344px;
+}
+
+button.btn.btn-light {
+    border-radius: 20px;
+    width: 103px;
+    
+    position: relative;
+    top: 345px;
+}
+.mydiv{
+    background-color: #222d32;;
+    position:fixed;
+    width:100%;
+    top:890px;
+   padding:14px;
+    }
+    
+    h1{
+    text-align:center;
+    font-size: 15px;
+    color:#fff;
+    }
+    b.hr-login {
+        font-size: 17px;
+    }
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: none;
+    }
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: block;
+    }
+    .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
+        color: #fff;
+        background-color: #ff9900 ;
+        text-decoration: none;
+    }
+
+
+  }

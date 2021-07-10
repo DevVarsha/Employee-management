@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description"
+        content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <!-- Twitter meta-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@pratikborsadiya">
+    <meta property="twitter:creator" content="@pratikborsadiya">
+    <!-- Open Graph Meta-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vali Admin">
+    <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+    <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
+    <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+    <meta property="og:description"
+        content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <title> Task-management </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/taskmanagement2.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body class="app sidebar-mini"> 
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="index.html"><img
+                src="images/webkodz_white_horizontal.png" class="webkodz-logo" alt="#"> </a><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+        <!-- Sidebar toggle button-->
+        <!-- Navbar Right Menu-->
+        <ul class="app-nav">
+            <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown"
+                    aria-label="Show notifications"><b class="emp-login">Employee Login</b></a>
+                    
+
+            </li>
+            <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown"
+                    aria-label="Open Profile Menu"><i><img src="images/user.svg" class="user-img" alt="#"></i></a>
+                <ul class="dropdown-menu settings-menu dropdown-menu-right">
+                    <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
+                    <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+                    <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a>
+                    </li>
+                </ul>
+            </li>
+            <!--Notification Menu-->
+
+            <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown"
+                    aria-label="Show notifications"><i><img src="images/notification.svg" class="notifications"
+                            alt="#"></i></a>
+
+            </li>
+            <!-- User Menu-->
+
+        </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+
+        <ul class="app-menu">
+            <li><a class="app-menu__item active" href="emplyeereg1.html"><i><img src="images/dashboard.png"
+                            alt="#"></i><span class="app-menu__label">&nbsp; &nbsp;Dashboard</span></a></li>
+            <li><a class="app-menu__item" href="attendance.html"><i class="app-menu__icon fa  fa-users"
+                        aria-hidden="true"></i><span class="app-menu__label">Attendance</span></a></li>
+            <li><a class="app-menu__item" href="leavemngpal.html"><i class=" app-menu__icon fa fa-praying-hands"
+                        aria-hidden="true"></i><span class="app-menu__label">Leave</span></a></li>
+
+            <li><a class="app-menu__item" href="bill.html"><i class="app-menu__icon fa  fa-users"
+                        aria-hidden="true"></i><span class="app-menu__label">Staff</span></a></li>
+            <li><a class="app-menu__item" href="clients.html"><i class="app-menu__icon fa  fa-user"
+                        aria-hidden="true"></i><span class="app-menu__label">Client</span></a></li>
+            </li>
+            <li><a class="app-menu__item" href="location.html"><i class=" app-menu__icon fa fa fa-inr"
+                        aria-hidden="true"></i><span class="app-menu__label">Payrool</span></a></li>
+
+            </li>
+            <li><a class="app-menu__item" href="report.html"><i class=" app-menu__icon fa fa fa-inr"
+                        aria-hidden="true"></i><span class="app-menu__label">Expense</span></a></li>
+            <li><a class="app-menu__item" href="complaint.html"><i class=" app-menu__icon  fa fa-key"
+                        aria-hidden="true"></i><span class="app-menu__label">permissions</span></a></li>
+
+
+
+            <li><a class="app-menu__item" href=".html"><i class="app-menu__icon fa fa-cog" aria-hidden="true"></i><span
+                        class="app-menu__label">Setting</span></a></li>
+        </ul>
+    </aside>
+    <main class="app-content">
+
+        <div class="row">
+            <div class="col-md-8">
+                <b class="employee"> Task Management</b>
+
+            </div>
+            <div class="col-md-1">
+                <a href="emplyeereg1.html"><img src="images/plus.png" class="plus-icon" alt="#"></a>
+
+            </div>
+            <div class="col-md-3">
+
+                <input class="app-search__input" type="search" placeholder="Search">
+                <button class="app-search__button"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+<div class="bg-section">
+        <div class="row">
+            <div class="col-md-4 box-scroll">
+                <div class="">
+
+
+                    <div class=" ">
+
+
+                     
+                           
+
+                              
+                                <div class="container">
+                                <div class="row ">
+                                   
+                                    <div class="col-md-12">
+                                        <b class="status">Status</b>
+                                        <div class="btn-group" >
+                                            <button class="all">All</button>
+                                            <button class="program"><b>In Progress</b></button>
+                                            <button class="program1"><b>Completed</b></button>
+                                            <button class="program2"><b>Pre-Planned</b></button>
+                                          </div>
+                                      
+        
+                                    </div>
+                                   
+        
+                                </div>
+                               
+                                <div class="row ">
+                                  
+                                    <div class="col-md-12">
+                                        <b  class="priority"> Priority</b>
+                                        <div class="btn-group btnn" >
+                                            <button class="all1">All</button>
+                                            <button class="program4"><b>high</b></button>
+                                            <button class="program5"><b>Low</b></button>
+                                            <button class="program6"><b>Medium</b></button>
+                                          </div>
+                                      
+        
+                                    </div>
+                                   
+        
+                                </div>
+                                <div class="row ">
+                                  
+                                    <div class="col-md-12">
+                                        <div class="card">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                  <b class="contein">Design a Logo For Our Website</b>
+                                                    </div>
+                                                  <!-- <div class="col-md-2">
+                                                        <div class="w3-container">
+                                                           
+                                                            <span class="w3-tag w3-xlarge w3-padding w3-red" style="transform:rotate(-10deg)">
+                                                           
+                                                            </span>
+                                                          </div>
+                                                          </div>--> 
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-12">
+                                               <p class="para">In publishing and graphic design, Lorem ipsum is a Lorem placeholder  content. </p>
+                                             
+                                                    </div>
+                                                
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-3">
+                                                    <b class="name">PM</b>
+                                               
+
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <img
+                                                    src="images/right-arrow.png" class="arrow-iconn" alt="#">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <b class="name">AS</b>
+                                                </div>
+                                                <div class="col-md-4">
+                                                  <b class="pro-work">In Progress</b>
+                                                </div>
+                                                
+                                             </div>  
+                                         </div>
+                                         <div class="card box">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                  <b class="contein">Design a Logo For Our Website</b>
+                                                    </div>
+                                                 
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-12">
+                                               <p class="para">In publishing and graphic design, Lorem ipsum is a Lorem placeholder  content. </p>
+                                             
+                                                    </div>
+                                                
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-3">
+                                                    <b class="name">SS</b>
+                                               
+
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <img
+                                                    src="images/right-arrow.png" class="arrow-iconn" alt="#">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <b class="name">VS</b>
+                                                </div>
+                                                <div class="col-md-4">
+                                                  <b class="com-work">Completed</b>
+                                                </div>
+                                                
+                                             </div>  
+                                         </div>
+                                         <div class="card box1">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                  <b class="contein">Design a Logo For Our Website</b>
+                                                    </div>
+                                                 
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-12">
+                                               <p class="para">In publishing and graphic design, Lorem ipsum is a Lorem placeholder  content. </p>
+                                             
+                                                    </div>
+                                                
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-3">
+                                                    <b class="name">SS</b>
+                                               
+
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <img
+                                                    src="images/right-arrow.png" class="arrow-iconn" alt="#">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <b class="name">VS</b>
+                                                </div>
+                                                <div class="col-md-4">
+                                                  <b class="pre-work">Pre-Planned</b>
+                                                </div>
+                                                
+                                             </div>  
+                                         </div>
+                                         <div class="card box2">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                  <b class="contein">Design a Logo For Our Website</b>
+                                                    </div>
+                                                
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-12">
+                                               <p class="para">In publishing and graphic design, Lorem ipsum is a Lorem placeholder  content. </p>
+                                             
+                                                    </div>
+                                                
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-3">
+                                                    <b class="name">SS</b>
+                                               
+
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <img
+                                                    src="images/right-arrow.png" class="arrow-iconn" alt="#">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <b class="name">VS</b>
+                                                </div>
+                                                <div class="col-md-4">
+                                                  <b class="com-work">Completed</b>
+                                                </div>
+                                                
+                                             </div>  
+                                         </div>
+                                    </div>
+                                   
+        
+                                </div>
+                            </div>
+                           
+                          
+
+                      
+                        <br>
+                    </div>
+                  
+                </div>
+
+
+            </div>
+            <div class="col-md-8 xyz">
+                <div class="">
+
+
+                    <div class="container  ">
+
+
+                        <div class="row ">
+                            <div class="col-md-10">
+                                <b class="designn">Design a Logo For Our Website</b>
+                             
+
+                            </div>
+                            <div class="col-md-2 ">
+                                <b class="high-p"><b class="htext">High Priority</b></b>
+                               
+
+                            </div>
+                        </div>
+                      
+                       
+                        <div class="row ">
+                            <div class="col-md-7">
+                                <img src="images/calendar-interface-symbol-tool.svg"class="cal-icon"alt="#"> <b class="designn1">15 Jan 2019 - 17 Jan 2019</b>
+                             
+
+                            </div>
+                            <div class="col-md-2">
+                                <b class="attch">Attachments</b>
+                                 
+   
+                               </div>
+                            <div class="col-md-1">
+                           
+                                <a href="empreg2.html"> <img src="images/edit.svg"class="edit-icon"alt="#"></a>&nbsp;&nbsp;
+
+                            </div>
+                            <div class="col-md-2 ">
+                                
+                                <b class="high-p1"><b class="htext">In Progress</b></b>
+                               
+
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-1">
+                                <img src="images/user1.svg"class="user-icon"alt="#">
+                                <img src="images/user1.svg"class="user-icon1"alt="#">
+                            </div>
+                            <div class="col-md-7  ">
+                             <b class="emp-namee">Atul Agnihotri</b>
+                             <p class="assign">Assigned By</p>
+                             <b class="emp-namee1">Aakash Bhanushali</b>
+                             <p class="assign1">Assigned To</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/1.jpg"class="img-icon"alt="#">
+                                <img src="images/2.jpg"class="img-icon"alt="#">
+                                <img src="images/3.jpg"class="img-icon"alt="#">
+                              
+                            </div>
+                               
+                               
+                           
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-12 hr-l">
+                               <hr class="hr-line">
+                            </div>
+                          
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-12 hr-l">
+                              <b class="comment">Comments</b>
+                            </div>
+                          
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-1">
+                                <img src="images/user1.svg"class="user-icon1"alt="#">
+                               
+                            </div>
+                            <div class="col-md-4">
+                                <b class="emp-namee2">Aakash Bhanushali</b>
+                             <p class="assign2"> Started Working at <span class="time">03:00 PM,15 Jan 2020</span></p>
+                               
+                            </div>
+                            <div class="col-md-1">
+                                 <img src="images/1.jpg"class="img-icon1"alt="#">
+                               
+                            </div>
+                            <div class="col-md-1">
+                                <img src="images/1.jpg"class="img-icon2"alt="#">
+                               
+                            </div>
+                            <div class="col-md-5 ">
+                                <div class="row ">
+                                    <div class="col-md-9">
+                                        <button class="to-do">To Do</button> <img src="images/right-arrow.svg"class="right-icon1"alt="#">   <button class="start"> Start</button> <hr class="hrline">
+                                        <p class="timeing"> 
+                               
+                                    </div>
+                                    <div class="col-md-3">
+                                       
+                                        <p class="timeing"> <i class="fa fa-clock-o" aria-hidden="true"></i><b class="time1">00:01:00</b></p>
+                               
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                       
+                        <div class="row ">
+                            <div class="col-md-12 hr-linee ">
+                                
+                               <hr class="hr-line2">
+                            </div>
+                          
+                        </div>
+
+                        <div class="row ">
+                            <div class="col-md-1">
+                                <img src="images/user1.svg"class="user-icon1"alt="#">
+                               
+                            </div>
+                            <div class="col-md-11">
+                                <b class="emp-namee2">Hardik Patel</b>
+                             <p class="assign2"> 03:21 PM, 15 Jan 2019</p>
+                               
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-12">
+                                <p class="para-contain1">In publishing and graphic design, Lorem ipsum is a Lorem placeholder  content. In publishing and graphic design, Lorem ipsum is a Lorem placeholder  content.  In publishing and graphic design, Lorem ipsum is a Lorem placeholder  content.  </p>
+                             
+
+                            </div>
+                           
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-12 hr-linee ">
+                                
+                               <hr class="hr-line3">
+                            </div>
+                          
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+        </div>
+
+    </main>
+    <div class="mydiv">
+        <h1 class="copy"><b>Copyright @2019 All Rights Reserved. </b></h1>
+    </div>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+    <!-- Essential javascripts for application to work-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+    <script type="text/javascript" src="js/plugins/chart.js"></script>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+    <script type="text/javascript">
+        var data = {
+            labels: ["January", "February", "March", "April", "May"],
+            datasets: [
+                {
+                    label: "My First dataset",
+                    fillColor: "rgba(220,220,220,0.2)",
+                    strokeColor: "rgba(220,220,220,1)",
+                    pointColor: "rgba(220,220,220,1)",
+                    pointStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "rgba(220,220,220,1)",
+                    data: [65, 59, 80, 81, 56]
+                },
+                {
+                    label: "My Second dataset",
+                    fillColor: "rgba(151,187,205,0.2)",
+                    strokeColor: "rgba(151,187,205,1)",
+                    pointColor: "rgba(151,187,205,1)",
+                    pointStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "rgba(151,187,205,1)",
+                    data: [28, 48, 40, 19, 86]
+                }
+            ]
+        };
+        var pdata = [
+            {
+                value: 300,
+                color: "#46BFBD",
+                highlight: "#5AD3D1",
+                label: "Complete"
+            },
+            {
+                value: 50,
+                color: "#F7464A",
+                highlight: "#FF5A5E",
+                label: "In-Progress"
+            }
+        ]
+
+        var ctxl = $("#lineChartDemo").get(0).getContext("2d");
+        var lineChart = new Chart(ctxl).Line(data);
+
+        var ctxp = $("#pieChartDemo").get(0).getContext("2d");
+        var pieChart = new Chart(ctxp).Pie(pdata);
+    </script>
+    <!-- Google analytics script-->
+    <script type="text/javascript">
+        if (document.location.hostname == 'pratikborsadiya.in') {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-72504830-1', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--poopupformmmm-->
+    <script>
+        // Get the modal
+        var modal2 = document.getElementById("myModal2");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn2");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close2")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal2.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- pagebutton-->
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

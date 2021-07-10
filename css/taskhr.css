@@ -1,0 +1,248 @@
+/*header*/
+
+a.app-header__logo {
+    background-color: #ff9900 ;
+}header.app-header { 
+    background-color: #ff9900;
+}img.user-img {
+    width: 20px;
+    height: 20px;
+}img.notifications {
+    height: 20px;
+    width: 20px;
+
+}
+
+img.webkodz-logo {
+    width: 140px;
+    position: relative;
+    top: -5px;
+}
+
+b.employee {
+    color: blue;
+    font-size: 15px;
+    
+    position: relative;
+    top: -5px;
+}
+span.add-employee {
+    position: relative;
+    top: -14px;
+    font-size: 15px;
+}
+img.plus-icon {
+    position: relative;
+    top: 628px;
+    float: right;
+    margin-right: 30px;
+    width: 44px;
+}
+input.app-search__input {
+    position: relative;
+    top: -11px;
+    width: 100%;
+}
+b.hr-login {
+    font-size: 17px;
+}
+
+
+
+img.edit-icon {
+    width: 20px;
+    height: 20px;
+}
+img.delete-icon {
+    width: 20px;
+    height: 20px;
+}
+img.clicking-icon {
+    width: 20px;
+    height: 20px;
+}
+i.fa.fa-search {
+    position: relative;
+    top: -14px;
+    margin-right: 17px;
+}
+.tile-body {
+    overflow-y: scroll;
+    height: 620px;
+    overflow-x: hidden;
+    
+}
+
+.tile {
+    margin-top: 0px;
+    height: 755px;
+}
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+ 
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+ 
+/*footer*/
+.col-md-12.footer {
+    padding: 11px;
+    text-align: center;
+    margin-left: 84px;
+}
+.copyright {
+    background-color: #222d32;
+    padding-top: 0px;
+}
+b.copy-text {
+    color: #fff;
+    font-size: 15px;
+}
+span.emp {
+    margin-left: 15px;
+}
+.mydiv{
+    background-color: #222d32;;
+    position:fixed;
+    width:100%;
+    top:890px;
+   padding:14px;
+    }
+    
+    h1{
+    text-align:center;
+    font-size: 15px;
+    color:#fff;
+    }
+    i.fa.fa-chevron-right.new {
+        position: relative;
+        top: -13px;
+        color: blue;
+    }
+   /*button*/
+   .btn-group {
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+.btn-group.btnn {
+    width: 100%;
+    position: relative;
+    top: 36px;
+}
+b.priority {
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+}
+b.status {
+    font-size: 17px;
+}
+button.all {
+    width: 14%;
+    height: 41px;
+    border-radius: 30px;
+    background-color: #222d32;
+    color: #fff;
+    font-size: 13px;
+}
+button.all1 {
+    width: 13%;
+    height: 41px;
+    border-radius: 30px;
+    background-color: #222d32;
+    color: #fff;
+    font-size: 13px;
+}
+button.program {
+    border-radius: 20px;
+    margin-left: 6px;
+    width: 148px;
+    color: #1bb9e8;
+    font-size: 13px;
+    border: 2px solid #1bb9e8;
+  
+}
+button.program1 {
+    border-radius: 20px;
+    margin-left: 6px;
+    width: 125px;
+    color: #63d65b;
+    border: 2px solid#63d65b;
+    font-size: 13px;
+}
+button.program2 {
+    border-radius: 20px;
+    margin-left: 6px;
+    width: 163px;
+    color: #ca19b4;
+    border: 2px solid#ca19b4;
+    font-size: 13px;
+}
+button.program4 {
+    border-radius: 20px;
+    margin-left: 6px;
+    width: 95px;
+    color: red;
+    font-size: 13px;
+    border: 2px solid red;
+  
+}
+button.program5 {
+    border-radius: 20px;
+    margin-left: 6px;
+    width: 95px;
+    color: #ffc107;
+    font-size: 13px;
+    border: 2px solid #ffc107;
+  
+}
+button.program6 {
+    border-radius: 20px;
+    margin-left: 6px;
+    width: 95px;
+    color: #2d1bc7de;
+    font-size: 13px;
+    border: 2px solid #2d1bc7de;
+  
+}
+.app-sidebar__toggle {
+    padding: 0 15px;
+    font-family: fontAwesome;
+     color: #fff; 
+    line-height: 2.4;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    display: none;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: block;
+    }
+    .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
+        color: #fff;
+        background-color: #ff9900 ;
+        text-decoration: none;
+    }
+
+
+  }

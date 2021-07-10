@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description"
+    content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+  <!-- Twitter meta-->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:site" content="@pratikborsadiya">
+  <meta property="twitter:creator" content="@pratikborsadiya">
+   <!-- Open Graph Meta-->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vali Admin">
+  <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+  <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
+  <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+  <meta property="og:description"
+    content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+  <title> Attendance message </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Main CSS-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/styleatten1.css">
+  <!-- Font-icon css-->
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+<body class="app sidebar-mini">
+  <!-- Navbar-->
+  <header class="app-header"><a class="app-header__logo" href="index.html"><img src="images/webkodz_white_horizontal.png" class="webkodz-logo" alt="#"> </a>
+    <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+    <!-- Sidebar toggle button-->
+    <!-- Navbar Right Menu-->
+    <ul class="app-nav">
+      <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown"
+          aria-label="Show notifications">HR Login</a>
+
+      </li>
+      <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown"
+          aria-label="Open Profile Menu"><i><img src="images/user.svg" class="user-img" alt="#"></i></a>
+        <ul class="dropdown-menu settings-menu dropdown-menu-right">
+          <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
+          <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+          <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+        </ul>
+      </li>
+      <!--Notification Menu-->
+
+      <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown"
+          aria-label="Show notifications"><i><img src="images/notification.svg" class="notifications" alt="#"></i></a>
+
+      </li>
+      <!-- User Menu-->
+
+    </ul>
+  </header>
+  <!-- Sidebar menu-->
+  <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+  <aside class="app-sidebar">
+
+    <ul class="app-menu">
+      <li><a class="app-menu__item active" href="emplyeereg1.html"><i><img  src="images/dashboard.png" alt="#"></i><span class="app-menu__label">&nbsp; &nbsp;Dashboard</span></a></li>
+      <li><a class="app-menu__item" href="attendance.html"><i class="app-menu__icon fa  fa-users"
+            aria-hidden="true"></i><span class="app-menu__label">Attendance</span></a></li>
+      <li><a class="app-menu__item" href="leavemngpal.html"><i class=" app-menu__icon fa fa-praying-hands"
+            aria-hidden="true"></i><span class="app-menu__label">Leave</span></a></li>
+
+      <li><a class="app-menu__item" href="bill.html"><i class="app-menu__icon fa  fa-users"
+        aria-hidden="true"></i><span
+            class="app-menu__label">Staff</span></a></li>
+            <li><a class="app-menu__item" href="clients.html"><i class="app-menu__icon fa  fa-user"
+              aria-hidden="true"></i><span
+                  class="app-menu__label">Client</span></a></li>
+      </li>
+      <li><a class="app-menu__item" href="location.html"><i class=" app-menu__icon fa fa fa-inr"
+            aria-hidden="true"></i><span class="app-menu__label">Payrool</span></a></li>
+
+      </li>
+      <li><a class="app-menu__item" href="report.html"><i class=" app-menu__icon fa fa fa-inr"
+        aria-hidden="true"></i><span class="app-menu__label">Expense</span></a></li>
+      <li><a class="app-menu__item" href="complaint.html"><i class=" app-menu__icon  fa fa-key"
+            aria-hidden="true"></i><span class="app-menu__label">permissions</span></a></li>
+    
+     
+     
+      <li><a class="app-menu__item" href=".html"><i class="app-menu__icon fa fa-cog" aria-hidden="true"></i><span
+            class="app-menu__label">Setting</span></a></li>
+    </ul>
+  </aside>
+  <main class="app-content">
+    
+    <div class="row">
+      <div class="col-md-7">
+        <b class="employee">  Attendance</b>  
+       
+      </div>
+      <div class="col-md-2">
+        <form class="needs-validation" novalidate>
+        <div class="input-group">
+          <input type="date" class="input-area" required id="inputField"/>
+          <label for="inputField" class="label">26 DEC 2019</label>
+      </div></form>
+      </div>
+      <div class="col-md-3">
+        
+     <input class="app-search__input" type="search" placeholder="Search">
+     <button  class="app-search__button"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="tile">
+          <div class="tile-body">
+            <div class="table-responsive">
+              <table class="table table-hover " id="sampleTable">
+                <thead>
+
+                  <tr>
+                    <th>#</th>
+                    <th>Employee Name</th>
+                    <th>Roll</th>
+                    <th>Attendance</th>
+                    <th> Comming Time</th>
+                   
+                    <th>Going Time</th>
+                    <th>Total Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button Present">p</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button> 
+
+
+                        </td>
+                       
+                        <!-- The Modal -->
+                      
+                        
+                      
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+                  
+                  
+                 <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button Present">p</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button> 
+
+
+                      </td>
+                      
+                       
+                        
+                      
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+                  
+                  
+                 <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button Present">p</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button> 
+                       
+                        </td>
+                       
+                        <!-- The Modal -->
+                      
+                      
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button absent">A</button>
+                        <button class="button">L</button>
+                    </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+                   <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button leave">L</button>
+                       </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button>
+                        </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+
+                  <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button>  </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+                 <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button>  </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+                 
+                  <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button> </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+                 
+                  <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button>  </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+
+                   <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button> </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+
+                  <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button> </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+
+                  
+                   <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button>  </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+
+    
+                 <tr>
+                    <td>1</td>
+                    <td>Arjun mehata</td>
+                    <td>ArjunAgmail.com</td>
+                    <td><button class="button">P</button>
+                        <button class="button">A</button>
+                        <button class="button">L</button>  </td>
+                    <td>---------------</td>
+                    <td>--------------</td>
+                    <td>--------------</td>
+                 </tr>
+
+                 
+
+                  
+                  
+                </tbody>
+              </table>
+            
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+        
+                                               
+                <div class="dropdown">
+                    <span class="emp" ><b>Employee</b></span> <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">50
+                     <span class="caret"></span></button><span class="show" ><b>Showing 10 Out of 125 Employees </b></span>
+                     <ul class="dropdown-menu">
+                       <li ><a href="#" class="drop-list">HTML</a></li>
+                       <li ><a  href="#" class="drop-list">CSS</a></li>
+                       <li ><a href="#" class="drop-list">JavaScript</a></li>
+                     </ul>
+                   </div>
+            </div>
+        
+           
+            <div class="col-md-3">
+        
+              <div id="myDIV">
+               
+                 <span ><b>Pages</b></span>
+                 <button class="btn "><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                 <button class="btn"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                  <button class="btn">1</button>
+                <button class="btn ">2</button>
+                <button class="btn">3</button>
+                <button class="btn">4</button>
+                <button class="btn">Last</button>
+              </div>
+        
+            </div>
+          </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+   
+  </main>
+  <div class="mydiv"><h1>Copyright @2019 All Rights Reserved. </h1></div>
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+  <!-- Essential javascripts for application to work-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- The javascript plugin to display page loading on top-->
+  <script src="js/plugins/pace.min.js"></script>
+  <!-- Page specific javascripts-->
+  <script type="text/javascript" src="js/plugins/chart.js"></script>
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+  <script type="text/javascript">
+    var data = {
+      labels: ["January", "February", "March", "April", "May"],
+      datasets: [
+        {
+          label: "My First dataset",
+          fillColor: "rgba(220,220,220,0.2)",
+          strokeColor: "rgba(220,220,220,1)",
+          pointColor: "rgba(220,220,220,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(220,220,220,1)",
+          data: [65, 59, 80, 81, 56]
+        },
+        {
+          label: "My Second dataset",
+          fillColor: "rgba(151,187,205,0.2)",
+          strokeColor: "rgba(151,187,205,1)",
+          pointColor: "rgba(151,187,205,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(151,187,205,1)",
+          data: [28, 48, 40, 19, 86]
+        }
+      ]
+    };
+    var pdata = [
+      {
+        value: 300,
+        color: "#46BFBD",
+        highlight: "#5AD3D1",
+        label: "Complete"
+      },
+      {
+        value: 50,
+        color: "#F7464A",
+        highlight: "#FF5A5E",
+        label: "In-Progress"
+      }
+    ]
+
+    var ctxl = $("#lineChartDemo").get(0).getContext("2d");
+    var lineChart = new Chart(ctxl).Line(data);
+
+    var ctxp = $("#pieChartDemo").get(0).getContext("2d");
+    var pieChart = new Chart(ctxp).Pie(pdata);
+  </script>
+  <!-- Google analytics script-->
+  <script type="text/javascript">
+    if (document.location.hostname == 'pratikborsadiya.in') {
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-72504830-1', 'auto');
+      ga('send', 'pageview');
+    }
+  </script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<!-- pagebutton-->
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("myDIV");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+      }
+      </script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script> 	
+
+    <!--clickkkkk-->
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

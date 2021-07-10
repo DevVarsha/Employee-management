@@ -1,0 +1,165 @@
+/*header*/
+
+a.app-header__logo {
+    background-color: #ff9900 ;
+}header.app-header {
+    background-color: #ff9900;
+}img.user-img {
+    width: 20px;
+    height: 20px;
+}img.notifications {
+    height: 20px;
+    width: 20px;
+
+}
+
+img.webkodz-logo {
+    width: 140px;
+    position: relative;
+    top: -5px;
+}
+
+
+
+
+b.employee {
+    color: blue;
+    font-size: 15px;
+    
+    position: relative;
+    top: -14px;
+}
+b.add-employee {
+    position: relative;
+    top: -14px;
+    font-size: 15px;
+    color: blue;
+    
+}   
+i.fa.fa-chevron-right.new {
+    color: royalblue;
+}
+span.comming-employee {
+    position: relative;
+    top: -14px;
+    font-size: 15px;
+    color: #928b8b;
+}   
+i.fa.fa-chevron-right.add {
+    color: black;
+}
+b.emp-come {
+    font-size: 24px;
+}
+p.come-today {
+    color: #928b8b;
+    position: relative;
+    top: 15px;
+}
+textarea#validationCustom01 {
+    position: relative;
+    top: 41px;
+    width: 550px;
+    height: 200px;  
+}
+.tile {
+    height: 764px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+button.btn.btn-info1 {
+    border-radius: 20px;
+    width: 103px;
+   background-color:#2ce2f3;
+    position: relative;
+    top: 107px;
+    color:#fff;
+}
+
+button.btn.btn-light {
+    border-radius: 20px;
+    width: 103px;
+    
+    position: relative;
+    top: 107px;
+}
+b.Attend {
+    position: relative;
+    top: 12px;
+    font-size: 16px;
+}
+.col-md-12.come-time {
+    position: relative;
+    top: 24px;
+    padding-left: 26px;
+}
+b.Notfying {
+    position: relative;
+    top: 62px;
+    font-size: 16px;
+}
+b.hr-mang {
+    position: relative;
+    top: 62px;
+    font-size: 16px;
+    margin-left:75px;
+    color:#53c759;
+}
+textarea#validationCustom02 {
+    position: relative;
+    top: 83px;
+    width: 550px;
+    height: 200px;
+}
+.mydiv{
+    background-color: #222d32;;
+    position:fixed;
+    width:100%;
+    top:890px;
+   padding:14px;
+    }
+    
+    h1{
+    text-align:center;
+    font-size: 15px;
+    color:#fff;
+    }
+    b.hr-login {
+        font-size: 17px;
+    }
+    b.emp-login {
+        font-size: 17px;
+    }
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: none;
+    }
+
+    
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: block;
+    }
+    .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
+        color: #fff;
+        background-color: #ff9900 ;
+        text-decoration: none;
+    }
+
+
+  }

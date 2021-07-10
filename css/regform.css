@@ -1,0 +1,115 @@
+.mydiv{
+    background-color: #222d32;;
+    position:fixed;
+    width:100%;
+    top:890px;
+   padding:14px;
+    }
+    
+    h1{
+    text-align:center;
+    font-size: 15px;
+    color:#fff;
+    }
+    img.web-logo {
+        width: 80px;
+        position: relative;
+    top: -55px;
+    }
+    .login-box {
+        position: relative;
+        top: -34px;
+    }
+    b.inv-mang {
+        position: relative;
+        top: -52px;
+        font-size: 23px;
+        color: #787984;
+    }
+    .login-content .login-box .login-head {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: none;
+        text-align: center;
+    }
+    input.form-control {
+        height: 44px;
+        font-size: 16px;
+        position: relative;
+    top: -18px;
+    border-color: #d5d5de;
+}
+    
+    .form-control:focus {
+        color: #495057;
+        background-color: #FFF;
+        border-color:#cfdada;
+        outline: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    span.label-text1 {
+        font-size: 17px;
+        position: relative;
+        top: -21px;
+        color: #787984;
+    }
+    span.register {
+       
+        color: blue;
+    }
+    button.btn.btn-info1.btn-block {
+        background-color: #28c9e8;
+        color: #fff;
+        position: relative;
+        top: -30px;
+    }
+    h3.login-head {
+        position: relative;
+        top: -11px;
+    }
+    span.label-text {
+        position: relative;
+        top: -22px;
+    }
+    .login-content .login-box {
+     
+        min-height: 410px;
+    }
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: none;
+    }
+
+
+
+
+
+    
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: block;
+    }
+    .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
+        color: #fff;
+        background-color: #ff9900 ;
+        text-decoration: none;
+    }
+
+
+  }

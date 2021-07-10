@@ -1,0 +1,354 @@
+/*header*/
+
+a.app-header__logo {
+    background-color: #ff9900 ;
+}header.app-header {
+    background-color: #ff9900;
+}img.user-img {
+    width: 20px;
+    height: 20px;
+}img.notifications {
+    height: 20px;
+    width: 20px;
+
+}
+textarea#inputFieldtext {
+    height: 112px;
+}
+img.webkodz-logo {
+    width: 140px;
+    position: relative;
+    top: -5px;
+}
+
+b.employee {
+    color: royalblue;
+    font-size: 15px;
+    
+    position: relative;
+    top: -14px;
+}
+span.add-employee {
+    position: relative;
+    top: -14px;
+    font-size: 15px;
+    color:#949090;
+}
+
+b.hr-login {
+    font-size: 17px;
+}
+
+
+
+.input-group .input-area {
+    outline: none;
+    border: 2px solid #dadce0;
+    padding: 5px 31px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
+    color:#8d8d8d;
+}
+button.btn.btn-warning {
+    width: 111px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #ff9900 ;
+}
+button.btn.btn-light {
+    width: 111px;
+    border-radius: 20px;
+    color: rgb(114, 111, 111);
+    position: relative;
+    top: 641px;
+  
+}
+
+
+
+img.photo-img {
+    float:right;
+      width: 150px;
+     
+  }
+  button.btn.btn-warning1 {
+      position: relative;
+      top: 164px;
+      border-radius: 20px;
+      background-color: #2ce2f3;
+      width: 105px;
+      float: right;
+      margin-right: -131px;
+      color:#fff;
+  }
+  button.btn.btn-warning2 {
+    background-color: #2ce2f3 ;
+    border-radius: 28px;
+    width: 102px;
+    color: #fff;
+    position: relative;
+    top: 641px;
+}
+.input-group .input-area:valid + .label {
+    top: -8px;
+    padding: 0 3px;
+    font-size: 14px;
+    color: #8d8d8d;
+}
+
+.input-group .input-area:focus {
+    border: 2px solid royalblue;
+}
+i.fa.fa-chevron-right {
+    color: royalblue;
+}
+
+.input-group .label {
+    color: #8d8d8d;
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    background: #ffffff;
+   
+}
+
+.input-group .input-area:focus + .label {
+    top: -8px;
+    padding: 0 3px;
+    font-size: 14px;
+    color: royalblue;
+   
+}
+input#inputField1 {
+    width: 100%;
+    height: 40px;
+    padding: 0px 1px 0px 9px;
+}
+.input-group .input-area:focus {
+    border: 2px solid royalblue;
+}
+
+input#inputField2 {
+    width: 100%;
+    height: 40px;
+  
+}
+label.label.date {
+    width: 103px;
+}
+
+.tile {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 760px;
+}
+.row.tile1 {
+    
+    margin-bottom: -48px;
+}
+/*footer*/
+.col-md-12.footer {
+    padding: 11px;
+    text-align: center;
+    margin-left: 84px;
+}
+.copyright {
+    background-color: #222d32;
+    padding-top: 0px;
+    
+    z-index: 999999999999;
+}
+b.copy-text {
+    color: #fff;
+    font-size: 15px;
+}
+.mydiv{
+    background-color: #222d32;;
+    position:fixed;
+    width:100%;
+    top:890px;
+   padding:14px;
+    }
+    
+    h1{
+    text-align:center;
+    font-size: 15px;
+    color:#fff;
+    }
+/*fieldset button*/
+
+#info-block section {
+    border: 2px solid #d1cfda;
+}
+
+.file-marker > div {
+    padding: 0 3px;
+    height: 46px;
+    margin-top: -0.8em;
+    
+}
+section.file-marker1 {
+    height: 64px;
+}
+.box-title {
+    background: white none repeat scroll 0 0;
+    display: inline-block;
+    padding: 0 2px;
+    margin-left: 1em;
+}
+img.arrow-img {
+    width: 30px;
+    position: relative;
+    top: 15px;
+   
+    margin-left: 27px;
+}
+select.select2.form-control.drop-down {
+    position: relative;
+    top: -10px;
+}
+b.name {
+    background-color: #9c9ba0;
+    color: #fff;
+    padding: 11px 9px 10px 10px;
+    border-radius: 20px;
+    position: relative;
+    top: -3px;
+    margin-left: 14px;
+}
+select.select2.form-control {
+    border: none;
+    position: relative;
+    top: -20px;
+    height: 29px;
+}
+p.assignedd {
+    color: #1a21f1;
+}
+i.fa.fa-sort-desc {
+    position: relative;
+    top: -25px;
+    font-size: 24px;
+    color: #7b7b80;
+}
+.file-marker1 > div {
+    padding: 0 3px;
+    height: 46px;
+    margin-top: -0.8em;
+    
+}
+p.high {
+    position: relative;
+    top: -16px;
+    margin-left: 18px;
+    color: #9295a2;
+}
+
+  img.down-img {
+    width: 12px;
+    position: relative;
+    top: -19px;
+}
+p.priority {
+    position: relative;
+    top: -24px;
+    padding: 10px;
+    color: blue;
+}
+b.come-emp {
+    position: relative;
+    top: -54px;
+    padding: 10px;
+    color: grey;
+}
+hr.hrline {
+    position: relative;
+    top: -72px;
+}
+b.medium {
+    position: relative;
+    top: -90px;
+    padding: 10px;
+    color: grey;
+}
+b.low {
+    position: relative;
+    top: -118px;
+    padding: 10px;
+    color: grey;
+}
+hr.hrline1 {
+    position: relative;
+    top: -102px;
+}
+/*border*/
+.border-dotted{
+ border-style: dotted;
+ color:black;
+}
+.border-10{
+border-style:solid;
+ border-width: 10px;
+}
+b.attach {
+  
+    position: relative;
+    top: 23px;
+    font-size: 19px;
+    color: gray;
+}
+.border-dotted {
+    border-style: dotted;
+    color: #b4b4b5;
+    position: relative;
+    top: 37px;
+    height: 291px;
+}
+p.drag {
+    position: relative;
+    top: 92px;
+    font-size: 18px;
+}
+.col-md-12.dark {
+    text-align: center;
+    position: relative;
+    top: -79px;
+    
+}
+button.btn.btn-dark {
+    border-radius: 20px;
+}
+
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: none;
+    }
+
+    
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .app-sidebar__toggle {
+        padding: 0 15px;
+        font-family: fontAwesome;
+         color: #fff; 
+        line-height: 2.4;
+        -webkit-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
+        display: block;
+    }
+    .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
+        color: #fff;
+        background-color: #ff9900 ;
+        text-decoration: none;
+    }
+
+
+  }
